@@ -36,3 +36,5 @@ There are differences on what params you can destructure in getInitialProps meth
 While inside pages you can destructure pathname(path of url), query(query string of url), asPath(string of url path including query), req(server side), res(server side), jsonPageRes(client side for fetch response object) and error in getInitialProps({pathname, query, asPath, req, res, jsonPageRes, err})
 
 While inside _app you can destructure Component, router and ctx(context) in getInitialProps({ Component, router, ctx })
+
+Link: https://kaloraat.com/articles/next-js-react-redux-authentication-tutorial
